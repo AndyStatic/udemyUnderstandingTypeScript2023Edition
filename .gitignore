@@ -1,0 +1,7 @@
+*.js
+
+# you should not push this directory to your repository
+node_modules
+
+# npm run build is creating a directory called lib
+lib

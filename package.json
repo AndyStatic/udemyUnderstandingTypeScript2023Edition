@@ -1,0 +1,23 @@
+{
+  "name": "udemyunderstandingtypescript2023edition",
+  "version": "1.0.0",
+  "description": "Understanding TypeScript - 2023 Edition<br />\r This is a code learned as part of Understanding TypeScript - 2023 Edition Udemy course by Maximilian Schwarzmüller<br />\r [https://www.udemy.com/course/understanding-typescript](https://www.udemy.com/course/understanding-typescript)<br />\r Code is used only as a learning notes, so all credits goes to course instructor and Udemy platform<br />\r <br />\r ## Setup\r <ol>\r <li> Download https://nodejs.org/en/ </li>\r <li> Verify in cmd after install as <em>node --version</em> </li>\r <li> Also verify:\r <ol>\r <li><em>npm --version</em> </li>\r <li><em>npx --version</em> </li>\r </ol>\r </li>\r </ol>\r <br />\r <h2>Can use this command to install typescript:</h2>\r <ol>\r <li><em>npm install -g typescript</em></li>\r <li>tsc app.ts compiles app.ts file into app.js file that we are using for index.html</li>\r </ol>\r <br />\r <h2>How to use examples:</h2>\r <ol>\r <li><em>tsc app.ts</em> command compiles app.ts file into app.js file that we are using for index.html</li>\r <li>open index.html with browser, i.e. Chrome, and see the result</li>\r <li>Need to re-compile and re-load pages after every change, if not use <em>npm init<em> (press Enter all the time unti completed)</li>\r </ol>\r <br />",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyStatic/udemyUnderstandingTypeScript2023Edition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndyStatic/udemyUnderstandingTypeScript2023Edition/issues"
+  },
+  "homepage": "https://github.com/AndyStatic/udemyUnderstandingTypeScript2023Edition#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
