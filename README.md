@@ -1,10 +1,13 @@
 # udemyUnderstandingTypeScript2023Edition
+
 Understanding TypeScript - 2023 Edition<br />
 This is a code learned as part of Understanding TypeScript - 2023 Edition Udemy course by Maximilian Schwarzmüller<br />
 [https://www.udemy.com/course/understanding-typescript](https://www.udemy.com/course/understanding-typescript)<br />
 Code is used only as a learning notes, so all credits goes to course instructor and Udemy platform<br />
 <br />
+
 ## Setup
+
 <ol>
 <li> Download https://nodejs.org/en/ </li>
 <li> Verify in cmd after install as <em>node --version</em> </li>
@@ -43,10 +46,19 @@ Code is used only as a learning notes, so all credits goes to course instructor 
 <li><em>tsc --init</em> will create tsconfig.json file</li>
 <li><em>tsc</em> will now compile all .tsc files that are in the same folder as tsconfig.json file</li>
 <li><em>tsc --watch</em> or <em>tsc -w</em> will compile all .tsc files that are in the same folder as tsconfig.json file on file save</li>
-<li>Now every file update will reflect in http://localhost:3000/ after any of files is saved</li>
+<li>Now every file update will reflect in http://localhost:3000/ after any of files were saved</li>
 </ol>
 <br />
 <h2>tsconfig.json file</h2>
 <ol>
-<li>You can exclude files like ,"exclude": ["analytics.ts", "*.dev.ts", "**/*.dev2.ts"] (you need to delete .js file as well if it was compiled before)</li>
+<li>You can exclude files like <em>,"exclude": ["analytics.ts", "*.dev.ts", "**/*.dev2.ts"]</em> (you need to delete .js file as well if it was compiled before)</li>
+<li>For sure can exclude <em>,"exclude": ["node_modules"]</em> as we don't need to touch 3rd party libs, but it's excluded by default without even specifying</li>
+<li>You can include files like <em>,"include": ["analytics.ts", "*.dev.ts", "**/*.dev2.ts"]</em> (you need to include everything you need to compile</li>
+</ol>
+<br />
+<h2>tsconfig.json compiler options</h2>
+<ol>
+<li><em>"target": "es2016"</em> - for which js version you want to compile the code, as browsers supports different versions</li>
+<li><em>"lib": []</em> - if not set, defaults depend on "target"</li>
+<li><em></em></li>
 </ol>
