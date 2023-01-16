@@ -31,3 +31,22 @@ Code is used only as a learning notes, so all credits goes to course instructor 
 <li>Now every file update will reflect in http://localhost:3000/ after <em>tsc app.ts</em></li>
 </ol>
 <br />
+<h2>Add Watch Mode:</h2>
+<ol>
+<li><em>tsc app.ts --watch</em> or <em>tsc app.ts -w</em> command compiles app.ts file on file save</li>
+<li>Now every file update will reflect in http://localhost:3000/ after file is saved</li>
+</ol>
+<br />
+<h2>Watch Mode for entire project (multiple files)</h2>
+<ol>
+<li>You can have more than one script referenced in index.html</li>
+<li><em>tsc --init</em> will create tsconfig.json file</li>
+<li><em>tsc</em> will now compile all .tsc files that are in the same folder as tsconfig.json file</li>
+<li><em>tsc --watch</em> or <em>tsc -w</em> will compile all .tsc files that are in the same folder as tsconfig.json file on file save</li>
+<li>Now every file update will reflect in http://localhost:3000/ after any of files is saved</li>
+</ol>
+<br />
+<h2>tsconfig.json file</h2>
+<ol>
+<li>You can exclude files like ,"exclude": ["analytics.ts", "*.dev.ts", "**/*.dev2.ts"] (you need to delete .js file as well if it was compiled before)</li>
+</ol>
