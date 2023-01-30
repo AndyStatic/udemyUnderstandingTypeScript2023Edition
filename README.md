@@ -60,5 +60,32 @@ Code is used only as a learning notes, so all credits goes to course instructor 
 <ol>
 <li><em>"target": "es2016"</em> - for which js version you want to compile the code, as browsers supports different versions</li>
 <li><em>"lib": []</em> - if not set, defaults depend on "target"</li>
-<li><em></em></li>
+</ol>
+<br />
+<h2>sourceMap compiler options</h2>
+<ol>
+<li><em>"sourceMap": true</em> - helps with debugging and development</li>
+<li>will generate .map files that will be available to debug via Chrome console</li>
+</ol>
+<br />
+<h2>rootDir and outDir options</h2>
+<ol>
+<li><em>"rootDir": "./"</em> - to store .ts files, i.e. src</li>
+<li><em>"outDir": "./"</em> - where .js files should be stored, i.e. dist</li>
+<li>will need to change html file references accordingly</li>
+</ol>
+<br />
+<h2>removeComments option</h2>
+<ol>
+<li><em>"removeComments": true</em> - will remove comments from compiled .js files</li>
+</ol>
+<br />
+<h2>noEmitOnError option</h2>
+<ol>
+<li><em>"noEmitOnError": true</em> - will not create .js files on .ts compile error (false by default)</li>
+</ol>
+<br />
+<h2>strict option</h2>
+<ol>
+<li><em> "strict": true</em> - enables all strict type-checking options</li>
 </ol>
