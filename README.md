@@ -66,6 +66,10 @@ Code is used only as a learning notes, so all credits goes to course instructor 
 <ol>
 <li><em>"sourceMap": true</em> - helps with debugging and development</li>
 <li>will generate .map files that will be available to debug via Chrome console</li>
+<li>you will need to use it for debugging ts code in Chrome, alongside with Debugger for Chrome extension
+<br />
+Use this link https://code.visualstudio.com/docs/typescript/typescript-debugging</li>
+<li>For launch.json during debug, change :8080 to :3000</li>
 </ol>
 <br />
 <h2>rootDir and outDir options</h2>
