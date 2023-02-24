@@ -96,7 +96,7 @@ Use this link https://code.visualstudio.com/docs/typescript/typescript-debugging
 <br />
 <h2>JS/browsers compatibility table</h2>
 <ol>
-<li>[https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)</li>
+<li>[https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)</li>
 </ol>
 <br />
 <br />
