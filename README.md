@@ -93,3 +93,18 @@ Use this link https://code.visualstudio.com/docs/typescript/typescript-debugging
 <ol>
 <li><em> "strict": true</em> - enables all strict type-checking options</li>
 </ol>
+<br />
+<h2>JS/browsers compatibility table</h2>
+<ol>
+<li>[https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)</li>
+</ol>
+<br />
+<br />
+<br />
+<h2>Quick check start</h2>
+<ol>
+<li><em>Terminal 1: npm start</em></li>
+<li><em>Terminal 2: tsc</em></li>
+<li><em>Terminal 2: tsc -w</em></li>
+</ol>
+<br />
