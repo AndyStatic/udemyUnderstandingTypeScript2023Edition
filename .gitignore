@@ -1,4 +1,7 @@
-*.js
+**dist/*.js
+**dist/*.map
+**dist/*/*.js
+**dist/*/*.map
 
 # you should not push this directory to your repository
 node_modules
